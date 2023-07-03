@@ -1,0 +1,23 @@
+{
+    "name": "soren-messeliersentis/td-dependancies",
+    "description": "beautiful test for package",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Courses\\dependancies\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Soren",
+            "email": "soren.messelier@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=8.0"
+    },
+    "require-dev": {
+        "phpstan/phpstan": "^1.10"
+    }
+}
